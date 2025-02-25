@@ -8,6 +8,10 @@ env/
 venv/
 .venv/
 
+#Ignore dockerfile and Procfile for Digital Ocean
+Dockerfile
+Procfile
+
 # Other Environments
 ENV/
 env.bak/
