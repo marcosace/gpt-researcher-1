@@ -22,8 +22,8 @@ const Header = ({ loading, isStopped, showResult, onStop, onNewResearch }: Heade
             <Image
               src="/img/gptr-logo.png"
               alt="logo"
-              width={60}
-              height={60}
+              width={80}
+              height={80}
               className="lg:h-16 lg:w-16"
             />
           </a>

@@ -256,7 +256,7 @@ export default function Home() {
           <div className="flex h-full w-full grow flex-col justify-between">
             <div className="container w-full space-y-2">
               <div className="container space-y-2 task-components">
-                <ResearchResults
+                <ResearchResults 
                   orderedData={orderedData}
                   answer={answer}
                   allLogs={allLogs}

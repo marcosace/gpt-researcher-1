@@ -36,8 +36,8 @@ const InputArea: FC<TInputAreaProps> = ({
 }) => {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const placeholder = handleSecondary
-    ? "Any questions about this report?"
-    : "What would you like to research next?";
+    ? "Alguma pergunta sobre o que você pesquisou?"
+    : "O que você gostaria de pesquisar?";
 
   const resetHeight = () => {
     if (textareaRef.current) {
