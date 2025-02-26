@@ -6,7 +6,7 @@ DEFAULT_CONFIG: BaseConfig = {
     "SIMILARITY_THRESHOLD": 0.42,
     "FAST_LLM": "openai:gpt-4o-mini",
     "SMART_LLM": "openai:gpt-4o-2024-11-20", # Has support for long responses (2k+ words).
-    "STRATEGIC_LLM": "openai:o3-mini", # Can be used with gpt-o1 or gpt-o3
+    "STRATEGIC_LLM": "openai:o1-preview", # Can be used with gpt-o1 or gpt-o3
     "FAST_TOKEN_LIMIT": 2000,
     "SMART_TOKEN_LIMIT": 4000,
     "STRATEGIC_TOKEN_LIMIT": 4000,
@@ -18,12 +18,12 @@ DEFAULT_CONFIG: BaseConfig = {
     "MAX_SEARCH_RESULTS_PER_QUERY": 5,
     "MEMORY_BACKEND": "local",
     "TOTAL_WORDS": 1200,
-    "REPORT_FORMAT": "APA",
+    "REPORT_FORMAT": "ABNT",
     "MAX_ITERATIONS": 4,
     "AGENT_ROLE": None,
     "SCRAPER": "bs",
     "MAX_SUBTOPICS": 3,
-    "LANGUAGE": "english",
+    "LANGUAGE": "Brazilian Portuguese",
     "REPORT_SOURCE": "web",
     "DOC_PATH": "./my-docs",
     # Deep research specific settings

@@ -58,7 +58,7 @@ async def create_chat_completion(
         **(llm_kwargs or {})
     }
 
-    if 'o3' in model or 'o1' in model:
+    if 'o3' in model:
         kwargs['reasoning_effort'] = reasoning_effort
     else:
         kwargs['temperature'] = temperature
